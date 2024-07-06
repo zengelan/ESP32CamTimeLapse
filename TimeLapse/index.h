@@ -509,7 +509,7 @@ R"(<!doctype html>
                         </div>
                         <div class="input-group" id="interval-group">
                             <label for="interval">Time-Lapse Interval [ms]</label>
-                            <input type="number" id="interval" min="0" max="1000000000" value="1000" class="default-action">
+                            <input type="number" id="interval" min="0" max="1000000000" value="5000" class="default-action">
                         </div>
                         <section id="buttons">
                             <button id="get-still">Get Still</button>
